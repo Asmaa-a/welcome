@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	ul 
+	{
+		list-style-type: none;
+		margin: -8px;
+		padding: 17px;
+		overflow: hidden;
+		background-color: #333;
+		text-align: center;
+
+	}
+	li
+	{
+		display: inline;
+	}
+	
+	li a
+	{
+		display: inline-block;
+		padding: 8px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+	}
+	 a:hover
+    {
+    	color: gray;
+    }
+    .text
+    {
+    	padding-right: 200px;
+    	padding-left: 330px;
+	}
+	h2
+	{
+		font-size: 30px;
+		font-weight: normal;
+		border-bottom: solid;
+		border-width: 1px;
+		border-color: gray;
+	}
+	h4
+	{
+		margin-top: 0.7px;
+	}
+	input[type=text]
+	{
+		width: 213%;
+		box-sizing: border-box;
+		padding: 12px 10px;
+		margin:4px 0;
+	}
+	input[type=email]
+	{
+		width: 213%;
+		box-sizing: border-box;
+		padding: 12px 10px;
+		margin: 4px 0px;
+
+	}
+	label
+	{
+		font-weight: bolder;
+		font-size: 13px;
+		
+	}
+	textarea
+	{
+		margin-top: 5px;
+		width: 330%;
+		height: 90px;
+		padding: 12px 10px;
+        
+	}
+    input[type=SEND]
+    {
+    	background-color: #7f0000;
+    	border: none;
+    	color: white;
+    	padding:15px ;
+    	text-decoration: none;
+    	margin-top:  15px ;
+    	margin-right: 230px;
+    	cursor: pointer;
+    	text-align: center;
+    	
+    }
+.footer
+    {
+    	background-color: black;
+    	color: white;
+    	text-align: center;
+    	padding: 21px;
+    	margin-left: -8px;
+    	margin-right: -8px;
+    	margin-top: 330px;
+    	margin-bottom: 0px;
+    }
+	</style>   
+</head>
+<body>
+<ul>
+	<li><a href="file:///F:/bedab/asmaa/first.html">Home</a></li>
+	<li><a href="file:///F:/bedab/asmaa/About.html">About</a></li>
+	<li><a href="file:///F:/bedab/asmaa/contact.html">Contact</a></li>
+</ul>
+<div class="text">
+	<h2>Contact</h2>
+	<h3>Questions?</h3>
+	Please contact us! Let our dedicated staff help you find the perfect laptop or accessory for you.<br>
+	<h4>Call us at (855) 637-1300 Toll Free</h4>
+	<h3>You can also send us a quick message using the form below.</h3>
+</div>
+<div class="text">
+<form method="post">
+
+<div style="float: left ; margin-right: 225px; ">
+	<label>NAME</label><br>
+	
+	<input type="text" name="NAME" placeholder="Name">	
+</div>
+<div style="float: left;">	
+	<label>EMAIL</label><br>
+    <input type="email" name="EMAIL" placeholder="Email">
+ </div> 
+</form>
+</div>
+<div class="text">
+<form>
+<div style="float: left;margin-right: 200px;margin-top: 8px;">
+	<label>MESSAGE</label>
+	<textarea placeholder="Message">
+	 </textarea>
+</div>
+<div style="float: left; ">
+<input type="SEND" value="SEND">
+</div>
+</form>
+</div>
+<div class="footer">
+	&copy; 2017 Baidu Web Team.
+</div>
+</body>
+</html>
